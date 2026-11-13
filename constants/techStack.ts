@@ -10,7 +10,6 @@ export const techStack = [
   "mongodb",
   "firebase",
 "tailwindcss", 
-  "github" ,
-  "adobeillustrator" 
+  "github" 
 ];
 

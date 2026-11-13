@@ -14,14 +14,18 @@ body {
   }
 }
 @layer components{
+  .grid-container{
+    @apply font-mono
+  }
   .grid-card{
     @apply m-2 p-3 rounded-xl bg-gray-900  text-white
   }
   .icons{
-    @apply flex  justify-center items-center w-15 h-15 bg-amber-50 rounded-xl m-5 p-2
+    @apply flex  justify-center items-center  bg-amber-50 rounded-xl m-5 p-2 hover:bg-gray-300  border-2  hover:border-blue-500
+ w-8 h-8 sm:w-15 sm:h-15 
   }
  .icon{
-    @apply w-10 h-10 cursor-pointer 
+    @apply  cursor-pointer 
   }
 }
 
